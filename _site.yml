@@ -1,7 +1,7 @@
-name: "taraskaduk-distill"
-title: "Taras Kaduk"
+name: "edwardhillenaar-distill"
+title: "Edward Hillenaar"
 description: |
-  Taras Kaduk
+  Edward Hillenaar
 output_dir: "_site"
 theme: theme.css
 base_url: https://taraskaduk.com
@@ -17,14 +17,14 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Geospatial work"
+    - text: "Posts"
       href: geo.html
     - text: "Talks"
       href: talks.html
     - icon: fa fa-rss
       href: index.xml
     - icon: fa fa-github
-      href: https://github.com/taraskaduk
+      href: https://github.com/EdwardHill15
 include: ["_redirects"]
 output:
   distill::distill_article:

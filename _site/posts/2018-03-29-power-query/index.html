@@ -19,7 +19,7 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-<title>Taras Kaduk: Power Query: Excel's gateway to reproducible analysis</title>
+<title>Edward Hillenaar: Power Query: Excel's gateway to reproducible analysis</title>
 
 <meta property="description" itemprop="description" content="Review of Power Query&#39;s scripting language as a way to evangelize reproducible data analysis and programming with minimal learning investment"/>
 
@@ -32,7 +32,7 @@
 <meta name="article:author" content="Taras Kaduk"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Taras Kaduk: Power Query: Excel&#39;s gateway to reproducible analysis"/>
+<meta property="og:title" content="Edward Hillenaar: Power Query: Excel&#39;s gateway to reproducible analysis"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Review of Power Query&#39;s scripting language as a way to evangelize reproducible data analysis and programming with minimal learning investment"/>
 <meta property="og:url" content="https://taraskaduk.com/posts/2018-03-29-power-query/"/>
@@ -40,11 +40,11 @@
 <meta property="og:image:width" content="1461"/>
 <meta property="og:image:height" content="789"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Taras Kaduk"/>
+<meta property="og:site_name" content="Edward Hillenaar"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary_large_image"/>
-<meta property="twitter:title" content="Taras Kaduk: Power Query: Excel&#39;s gateway to reproducible analysis"/>
+<meta property="twitter:title" content="Edward Hillenaar: Power Query: Excel&#39;s gateway to reproducible analysis"/>
 <meta property="twitter:description" content="Review of Power Query&#39;s scripting language as a way to evangelize reproducible data analysis and programming with minimal learning investment"/>
 <meta property="twitter:url" content="https://taraskaduk.com/posts/2018-03-29-power-query/"/>
 <meta property="twitter:image" content="https://taraskaduk.com/posts/2018-03-29-power-query/cover.png"/>
@@ -53,7 +53,7 @@
 <meta property="twitter:site" content="@taraskaduk"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="Taras Kaduk: Power Query: Excel&#39;s gateway to reproducible analysis"/>
+<meta name="citation_title" content="Edward Hillenaar: Power Query: Excel&#39;s gateway to reproducible analysis"/>
 <meta name="citation_fulltext_html_url" content="https://taraskaduk.com/posts/2018-03-29-power-query/"/>
 <meta name="citation_online_date" content="2018/03/29"/>
 <meta name="citation_publication_date" content="2018/03/29"/>
@@ -405,8 +405,15 @@ d-title {
   top: 0;
 }
 
+/* adjust viewport for navbar height */
+/* helps vertically center bootstrap (non-distill) content */
+.min-vh-100 {
+  min-height: calc(100vh - 100px) !important;
+}
+
 </style>
 
+<script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <link href="../../site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
 <link href="../../site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
 <script src="../../site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -514,19 +521,21 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
           var results = fuse.search(query, searchOptions);
           callback(results
             .map(function(result) { return result.item; })
-            .filter(function(item) { return !!item.description; })
           );
         },
         templates: {
           suggestion: function(suggestion) {
+            var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+              ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+              : '';
             var html = `
               <div class="search-item">
                 <h3>${suggestion.title}</h3>
                 <div class="search-item-description">
-                  ${suggestion.description}
+                  ${suggestion.description || ''}
                 </div>
                 <div class="search-item-preview">
-                  <img src="${suggestion.preview ? offsetURL(suggestion.preview) : ''}"</img>
+                  ${img}
                 </div>
               </div>
             `;
@@ -549,6 +558,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 
 <style type="text/css">
+
+.nav-search {
+  font-size: x-small;
+}
 
 /* Algolioa Autocomplete */
 
@@ -624,6 +637,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 }
 
 .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+  font-size: 1rem;
   margin-block-start: 0;
   margin-block-end: 5px;
 }
@@ -851,6 +865,11 @@ d-article pre a:hover {
   text-decoration: underline;
 }
 
+d-article details {
+  grid-column: text;
+  margin-bottom: 0.8em;
+}
+
 @media(min-width: 768px) {
 
 d-article pre,
@@ -968,10 +987,6 @@ figure img.external {
   margin-top: 1.5em;
 }
 
-.figure img {
-  width: 100%;
-}
-
 .figure .caption {
   color: rgba(0, 0, 0, 0.6);
   font-size: 12px;
@@ -1005,6 +1020,17 @@ d-article .citation {
 
 div.hanging-indent{
   margin-left: 1em; text-indent: -1em;
+}
+
+/* Citation hover box */
+
+.tippy-box[data-theme~=light-border] {
+  background-color: rgba(250, 250, 250, 0.95);
+}
+
+.tippy-content > p {
+  margin-bottom: 0;
+  padding: 2px;
 }
 
 
@@ -1672,7 +1698,7 @@ function init_distill() {
     var layout = $(this).attr('data-layout');
 
     // apply layout to markdown level block elements
-    var elements = $(this).children().not('div.sourceCode, pre, script');
+    var elements = $(this).children().not('details, div.sourceCode, pre, script');
     elements.each(function(i, el) {
       var layout_div = $('<div class="' + layout + '"></div>');
       if (layout_div.hasClass('shaded')) {
@@ -1788,6 +1814,54 @@ function init_distill() {
     $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
     $('.appendix-bottom').remove();
 
+    // hoverable references
+    $('span.citation[data-cites]').each(function() {
+      if ($(this).children()[0].nodeName == "D-FOOTNOTE") {
+        var fn = $(this).children()[0]
+        $(this).html(fn.shadowRoot.querySelector("sup"))
+        $(this).id = fn.id
+        fn.remove()
+      }
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
+      window.tippy(this, {
+        allowHTML: true,
+        content: refHtml,
+        maxWidth: 500,
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'light-border',
+        placement: 'bottom-start'
+      });
+    });
+
+    // fix footnotes in tables (#411)
+    // replacing broken distill.pub feature
+    $('table d-footnote').each(function() {
+      // we replace internal showAtNode methode which is triggered when hovering a footnote
+      this.hoverBox.showAtNode = function(node) {
+        // ported from https://github.com/distillpub/template/pull/105/files
+        calcOffset = function(elem) {
+            let x = elem.offsetLeft;
+            let y = elem.offsetTop;
+            // Traverse upwards until an `absolute` element is found or `elem`
+            // becomes null.
+            while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                x += elem.offsetLeft;
+                y += elem.offsetTop;
+            }
+
+            return { left: x, top: y };
+        }
+        // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+        const bbox = node.getBoundingClientRect();
+        const offset = calcOffset(node);
+        this.show([offset.left + bbox.width, offset.top + bbox.height]);
+      }
+    })
+
     // clear polling timer
     clearInterval(tid);
 
@@ -1886,6 +1960,8 @@ function init_common() {
   // mark non-body figures created by knitr chunks as 100% width
   $('.layout-chunk').each(function(i, val) {
     var figures = $(this).find('img, .html-widget');
+    // ignore leaflet img layers (#106)
+    figures = figures.filter(':not(img[class*="leaflet"])')
     if ($(this).attr('data-layout') !== "l-body") {
       figures.css('width', '100%');
     } else {
@@ -1908,7 +1984,7 @@ function init_common() {
   // get rid of index.html references in header
   if (window.location.protocol !== "file:") {
     $('.distill-site-header a[href]').each(function(i,val) {
-      $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
     });
   }
 
@@ -2138,7 +2214,7 @@ h1, h2, h3, h4, h5, h6,
 
 d-article div.sourceCode code,
 d-article pre code {
-	font-family: var(--mono-font), var(--mono-default);
+  font-family: var(--mono-font), var(--mono-default);
 }
 
 
@@ -2163,76 +2239,78 @@ d-article h6 {
 }
 
 /*-- BODY --*/
-/* only text inside of <p> tags */
-d-article > p {
+d-article > p,  /* only text inside of <p> tags */
+d-article > ul, /* lists */
+d-article > ol {
   color: var(--body-color, rgba(0, 0, 0, 0.8));
   font-size: var(--body-size, 1.06rem);
 }
 
+
 /*-- CODE --*/
 d-article div.sourceCode code,
 d-article pre code {
-	font-size: var(--code-size, 14px);
+  font-size: var(--code-size, 14px);
 }
 
 /*-- ASIDE --*/
 d-article aside {
-	font-size: var(--aside-size, 12px);
-	color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  font-size: var(--aside-size, 12px);
+  color: var(--aside-color, rgba(0, 0, 0, 0.6));
 }
 
 /*-- FIGURE CAPTIONS --*/
 figure .caption,
 figure figcaption,
 .figure .caption {
-	font-size: var(--fig-cap-size, 13px);
-	color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  font-size: var(--fig-cap-size, 13px);
+  color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
 }
 
 /*-- METADATA --*/
 d-byline h3 {
-	font-size: var(--heading-size, 0.6rem);
-	color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  font-size: var(--heading-size, 0.6rem);
+  color: var(--heading-color, rgba(0, 0, 0, 0.5));
 }
 
 d-byline {
-	font-size: var(--body-size, 0.8rem);
-	color: var(--body-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--body-size, 0.8rem);
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
 }
 
 d-byline a,
 d-article d-byline a {
-	color: var(--body-color, rgba(0, 0, 0, 0.8));
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
 }
 
 /*-- TABLE OF CONTENTS --*/
 .d-contents nav h3 {
-	font-size: var(--heading-size, 18px);
+  font-size: var(--heading-size, 18px);
 }
 
 .d-contents nav a {
-	font-size: var(--contents-size, 13px);
+  font-size: var(--contents-size, 13px);
 }
 
 /*-- APPENDIX --*/
 d-appendix h3 {
   font-size: var(--heading-size, 15px);
-	color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  color: var(--heading-color, rgba(0, 0, 0, 0.65));
 }
 
 d-appendix {
   font-size: var(--text-size, 0.8em);
-	color: var(--text-color, rgba(0, 0, 0, 0.5));
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
 }
 
 d-appendix d-footnote-list a.footnote-backlink {
-	color: var(--text-color, rgba(0, 0, 0, 0.5));
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
 }
 
 /*-- WEBSITE HEADER + FOOTER --*/
 .distill-site-header .title {
-	font-size: var(--title-size, 18px);
-	font-family: var(--navbar-font), var(--heading-default);
+  font-size: var(--title-size, 18px);
+  font-family: var(--navbar-font), var(--heading-default);
 }
 
 .distill-site-header a,
@@ -2240,24 +2318,30 @@ d-appendix d-footnote-list a.footnote-backlink {
   font-family: var(--navbar-font), var(--heading-default);
 }
 
-.distill-site-header a:hover {
-	color: var(--hover-color, white);
+.nav-dropdown .nav-dropbtn {
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  font-size: var(--text-size, 15px);
+}
+
+.distill-site-header a:hover,
+.nav-dropdown:hover .nav-dropbtn {
+  color: var(--hover-color, white);
 }
 
 .distill-site-header {
-	font-size: var(--text-size, 15px);
-	color: var(--text-color, rgba(255, 255, 255, 0.8));
-	background-color: var(--bkgd-color, #0F2E3D);
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
 }
 
 .distill-site-footer {
-	font-size: var(--text-size, 15px);
-	color: var(--text-color, rgba(255, 255, 255, 0.8));
-	background-color: var(--bkgd-color, #0F2E3D);
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
 }
 
 .distill-site-footer a:hover {
-	color: var(--hover-color, white);
+  color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
   <script src="../../site_libs/twitter-widget-0.0.1/widgets.js"></script>
@@ -2304,7 +2388,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Power Query: Excel's gateway to reproducible analysis","description":"Review of Power Query's scripting language as a way to evangelize reproducible data analysis and programming with minimal learning investment","authors":[{"author":"Taras Kaduk","authorURL":"https://taraskaduk.com","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2018-03-29T00:00:00.000+00:00","citationText":"Kaduk, 2018"}
+{"title":"Power Query: Excel's gateway to reproducible analysis","description":"Review of Power Query's scripting language as a way to evangelize reproducible data analysis and programming with minimal learning investment","authors":[{"author":"Taras Kaduk","authorURL":"https://taraskaduk.com","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2018-03-29T00:00:00.000+02:00","citationText":"Kaduk, 2018"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2315,18 +2399,18 @@ d-appendix d-footnote-list a.footnote-backlink {
 <a class="logo" href="https://taraskaduk.com">
 <img src="../../static/logo.png" alt="Logo"/>
 </a>
-<a href="../../index.html" class="title">Taras Kaduk</a>
+<a href="../../index.html" class="title">Edward Hillenaar</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
 <a href="../../index.html">Home</a>
 <a href="../../about.html">About</a>
-<a href="../../geo.html">Geospatial work</a>
+<a href="../../geo.html">Posts</a>
 <a href="../../talks.html">Talks</a>
 <a href="../../index.xml">
 <i class="fa fa-rss" aria-hidden="true"></i>
 </a>
-<a href="https://github.com/taraskaduk">
+<a href="https://github.com/EdwardHill15">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
@@ -2490,23 +2574,26 @@ in
 <div class="appendix-bottom">
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Kaduk (2018, March 29). Taras Kaduk: Power Query: Excel's gateway to reproducible analysis. Retrieved from https://taraskaduk.com/posts/2018-03-29-power-query/</pre>
+  <pre class="citation-appendix short">Kaduk (2018, March 29). Edward Hillenaar: Power Query: Excel's gateway to reproducible analysis. Retrieved from https://taraskaduk.com/posts/2018-03-29-power-query/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{kaduk2018power,
   author = {Kaduk, Taras},
-  title = {Taras Kaduk: Power Query: Excel's gateway to reproducible analysis},
+  title = {Edward Hillenaar: Power Query: Excel's gateway to reproducible analysis},
   url = {https://taraskaduk.com/posts/2018-03-29-power-query/},
   year = {2018}
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
-<!--radix_placeholder_navigation_after_body-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!--radix_placeholder_navigation_after_body--><html><body>
 <div class="distill-site-nav distill-site-footer">
-  <p>© Copyright 2017 Taras Kaduk.</p>
-  <p>Website template is by <a href="https://distill.pub/about/">Distill.pub</a> and <a href="https://www.rstudio.com">RStudio, Inc</a>.</p>
-  <p>Original text and figures are licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial CC BY-NC 4.0</a>.</p>
+<p>© Copyright 2017 Taras Kaduk.</p>
+<p>Website template is by <a href="https://distill.pub/about/">Distill.pub</a> and <a href="https://www.rstudio.com">RStudio, Inc</a>.</p>
+<p>Original text and figures are licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons
+Attribution-NonCommercial CC BY-NC 4.0</a>.</p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->
+</body></html>
 
 
 </body>
