@@ -1,6 +1,11 @@
 ---
-title: "About Edward Hillenaar"
+title: "Edward Hillenaar: Data Scientist, Psychologist and Philosopher"
 ---
+```{css, echo = FALSE}
+  body {
+  background-color: lightblue;
+}
+```
 
 ![](static/Ed Cambodia.jpg)
 

@@ -13,7 +13,7 @@ output:
     toc: true
     toc_depth: 3
 bibliography: biblio.bib
-preview: preview.png
+preview: 
 ---
 
 ```{r setup, include=FALSE}
@@ -23,10 +23,6 @@ knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, error = FAL
 # 2021-01-18 Update
 
 I had this post published originally on [2019-12-19 on my old version of the website, which ran on HUGO](https://github.com/taraskaduk/taraskaduk-hugo/blob/master/content/posts/2019-12-print-map/print_map.Rmd). As I was migrating the content from HUGO to Distill, I purged a lot of stuff that I deemed unnecessary, this post being among the purged ones. By that time, I found several really good online guides on how to print street maps more efficiently [@mccrain] [@burkhart]. However, a few people^[https://twitter.com/tamara_cheng/status/1312697647099244544] ^[https://twitter.com/heyitsmehugo/status/1341874708464197632] asked about my original post since then, and I felt that I owe it to the intrawebs to put it back on.
-
-```{r echo=FALSE}
-tweetrmd::tweet_embed("https://twitter.com/taraskaduk/status/1207680875472789505")
-```
 
 # Introduction
 

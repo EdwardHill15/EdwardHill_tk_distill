@@ -1,6 +1,12 @@
 ---
 title: "Talks"
 ---
+```{css, echo = FALSE}
+  body {
+  background-color: lightblue;
+}
+```
+
 
 ![](static/sqlsat18.jpg)
 

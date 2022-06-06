@@ -4,21 +4,21 @@ description: |
   Edward Hillenaar
 output_dir: "_site"
 theme: theme.css
-base_url: https://taraskaduk.com
-favicon: static/logo.png
+base_url: https://edwardhillenaar-postcard.netlify.app/
+favicon: static/logo.svg
 twitter:
-  site: "@taraskaduk"
+  site: ""
 navbar:
   logo: 
-    image: static/logo.png
-    href: https://taraskaduk.com
+    image: static/logo.svg
+    href: https://edwardhillenaar-postcard.netlify.app/
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
     - text: "Posts"
-      href: geo.html
+      href: posts.html
     - text: "Talks"
       href: talks.html
     - icon: fa fa-rss

@@ -1,5 +1,24 @@
 [
   {
+    "path": "posts/Alfred North Whitehead/",
+    "title": "Alfred North Whitehead",
+    "description": "Alfred North Whitehead post with references to biblio.bib.",
+    "author": [
+      {
+        "name": "Edward Hillenaar",
+        "url": "https://edwardhillenaar-postcard.netlify.app/"
+      }
+    ],
+    "date": "2022-06-06",
+    "categories": [],
+    "contents": "\r\n\r\nContents\r\nIntroduction\r\nResults\r\nData\r\nPlots\r\nRegression\r\n\r\n\r\nIntroduction\r\nInclude reference in the text (Sjöstedt-Hughes 2016). This is another\r\ncitation (Segall 2019).\r\n(Kraus 1998) More: (Smith 2010), (Sjöstedt-Hughes, n.d.)\r\nEn nog meer: [Desmet\r\n(2010))\r\nAlfred North Whitehead (Schilpp 1941)\r\nAlfred North WhiteheadAlfred North Whiteheadpunt 1\r\npunt 2\r\npunt 3\r\npunt 4\r\nThis is an R Markdown document. Markdown is a simple formatting\r\nsyntax for authoring HTML, PDF, and MS Word documents. For more details\r\non using R Markdown see http://rmarkdown.rstudio.com.\r\nWhen you click the Knit button a document will be\r\ngenerated that includes both content as well as the output of any\r\nembedded R code chunks within the document. You can embed an R code\r\nchunk like this:\r\nResults\r\nData\r\n\r\n     speed           dist       \r\n Min.   : 4.0   Min.   :  2.00  \r\n 1st Qu.:12.0   1st Qu.: 26.00  \r\n Median :15.0   Median : 36.00  \r\n Mean   :15.4   Mean   : 42.98  \r\n 3rd Qu.:19.0   3rd Qu.: 56.00  \r\n Max.   :25.0   Max.   :120.00  \r\n\r\nPlots\r\nYou can also embed plots, for example:\r\n\r\n\r\n\r\nRegression\r\nNote that the echo = FALSE parameter was added to the\r\ncode chunk to prevent printing of the R code that generated the\r\nplot.\r\n\r\n\r\n\r\nDesmet, R. 2010. “Whitehead ’ s Principle of\r\nRelativity,” 1–5.\r\n\r\n\r\nKraus, Elizabeth M. 1998. The Metaphysics of\r\nExperience: A Companion to Whitehead’s Process and Reality American\r\nPhilosophy Series, 1073-2764. New York: Fordham University\r\nPress.\r\n\r\n\r\nSchilpp, Paul Arthur. 1941. The Philosophy of\r\nAlfred North Whitehead. Menasha: George Banta Publishing\r\nCompany. https://doi.org/10.5840/thought194217387.\r\n\r\n\r\nSegall, Matthew T. 2019. “Time and Experience\r\nin Physics and Philosophy: Whiteheadian Reflections on Bergson,\r\nEinstein, and Rovelli.” Aquila.\r\n\r\n\r\nSjöstedt-Hughes, Peter. 2016. “The Philosophy\r\nof Organism: Whitehead’s Organic Awareness of Reality,”\r\nno. September.\r\n\r\n\r\n———. n.d. “The Great God Pan is Not Dead:\r\nA.N. Whitehead and the Psychedelic Mode of Perception.”\r\nPsychedelic Press.\r\n\r\n\r\nSmith, Olav Bryant. 2010. “The Social Self of\r\nWhitehead’s Organic Philosophy.” European Journal of\r\nPragmatism and American Philosophy II (1): 0–15. https://doi.org/10.4000/ejpap.935.\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/Alfred North Whitehead/Alfred-North-Whitehead_files/figure-html5/pressure-1.png",
+    "last_modified": "2022-06-06T16:12:39+02:00",
+    "input_file": {},
+    "preview_width": 1248,
+    "preview_height": 768
+  },
+  {
     "path": "posts/2021-03-14-best-weather-2/",
     "title": "Cities with Best (and Worst) Weather, 2021 edition",
     "description": "An analysis of NCEI GSOD weather data with a subsequent ranking of World and U.S. cities in terms pleasant weather. Count of pleasant days and calculation of excess degree-days are used as two different approaches, returning similar (yet not identical) results.",

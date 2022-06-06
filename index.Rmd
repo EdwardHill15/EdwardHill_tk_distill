@@ -3,3 +3,8 @@ title: "Edward Hillenaar"
 site: distill::distill_website
 listing: posts
 ---
+```{css, echo = FALSE}
+  body {
+  background-color: lightblue;
+}
+```

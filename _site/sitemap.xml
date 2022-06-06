@@ -1,59 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://taraskaduk.com/about.html</loc>
-    <lastmod>2022-06-06T14:15:03+02:00</lastmod>
+    <loc>https://edwardhillenaar-postcard.netlify.app/about.html</loc>
+    <lastmod>2022-06-06T17:53:57+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/geo.html</loc>
-    <lastmod>2022-06-06T14:01:29+02:00</lastmod>
+    <loc>https://edwardhillenaar-postcard.netlify.app/</loc>
+    <lastmod>2022-06-06T18:04:02+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/</loc>
-    <lastmod>2022-06-06T14:05:48+02:00</lastmod>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts.html</loc>
+    <lastmod>2022-06-06T17:16:22+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/talks.html</loc>
-    <lastmod>2022-06-06T14:01:29+02:00</lastmod>
+    <loc>https://edwardhillenaar-postcard.netlify.app/talks.html</loc>
+    <lastmod>2022-06-06T17:05:12+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2021-03-14-best-weather-2/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/Alfred North Whitehead/</loc>
+    <lastmod>2022-06-06T16:12:39+02:00</lastmod>
+  </url>
+  <url>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2021-03-14-best-weather-2/</loc>
     <lastmod>2022-06-06T14:01:26+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2021-01-18-print-street-maps/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2021-01-18-print-street-maps/</loc>
     <lastmod>2022-06-06T14:01:26+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2020-12-06-uber-movement-kyiv/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2020-12-06-uber-movement-kyiv/</loc>
     <lastmod>2022-06-06T14:01:25+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2019-11-11-excess-degree-days/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2019-11-11-excess-degree-days/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2019-10-23-is-rock-dying/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2019-10-23-is-rock-dying/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2019-03-23-apple-health/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2019-03-23-apple-health/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2019-02-18-weather/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2019-02-18-weather/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2018-03-29-power-query/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2018-03-29-power-query/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2017-11-26-pixel-maps/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2017-11-26-pixel-maps/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
   <url>
-    <loc>https://taraskaduk.com/posts/2017-09-30-mpaa/</loc>
+    <loc>https://edwardhillenaar-postcard.netlify.app/posts/2017-09-30-mpaa/</loc>
     <lastmod>2022-06-06T14:01:24+02:00</lastmod>
   </url>
 </urlset>
