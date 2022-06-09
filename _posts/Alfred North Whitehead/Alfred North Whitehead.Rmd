@@ -4,7 +4,7 @@ description: |
   Alfred North Whitehead post with references to biblio.bib. 
 author:
   - name: Edward Hillenaar
-    url: https://edwardhillenaar-postcard.netlify.app/
+    url: https://edwardhill-th-distill.netlify.app
 date: 2022-06-06
 output:
   distill::distill_article:
