@@ -1,7 +1,7 @@
 ---
 title: "Total Health NVM Research"
 description: |
-  Voorbeeld11 with references to biblio.bib. 
+  Example NVM Research 
 author:
   - name: Edward Hillenaar
     url: https://edwardhill-th-distill.netlify.app
@@ -12,7 +12,7 @@ output:
     toc: true
     toc_depth: 3
 bibliography: biblio.bib
-preview: figures/featured.jpg
+preview: figures/boxplot.png
 draft: false
 ---
 
@@ -23,6 +23,12 @@ knitr::opts_chunk$set(
 	message = FALSE,
 	warning = FALSE
 )
+library(forcats)
+library(plotly)
+library(tidyverse)
+library(readr)
+library(psych)
+library(DT)
 ```
 
 ```{css echo = FALSE}
@@ -40,9 +46,6 @@ En nog meer: [@kuipers1999standaard)
 
 Alfred North Whitehead [@guide2003corrected]
 
-
-![NVM Research](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/bar1_t.png)
-
  * **punt 1**
  * **punt 2**
  * **punt 3**
@@ -57,12 +60,8 @@ When you click the **Knit** button a document will be generated that includes bo
 ## Data
 
 ```{r, echo = FALSE}
-library(readr)
-library(forcats)
-library(tidyverse)
 NVM1_Data <- read.csv("NVM1_Data.csv", header = TRUE, sep = ";")
 NVM <- NVM1_Data
-library(psych)
 NVM <- NVM[,c(4:11)]
 names(NVM) <- c("gender", "age", "status", "negativism", "somatization",
                 "shyness", "psychopathology", "extraversion")
@@ -87,7 +86,7 @@ df_group_t <- group_by(df_long, consciousness, nvm_factor)
 df_group_t <- group_by(df_long, consciousness, nvm_factor) %>% dplyr::summarise(mean=mean(score), sd=sd(score))
 
 
-library(DT)
+# DT table
 df_group_t$mean <- round(df_group_t$mean,2)
 df_group_t$sd <- round(df_group_t$sd,2)
 table1 <- datatable(df_group_t, extensions = "Buttons",
@@ -98,13 +97,23 @@ table1
 ```
 
 
-## Plots
+## Plot1
+
+![NVM Research graph1](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/bar2_t_earthly.png)
+
+## Plot2
+
+![NVM Research graph3](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/boxplot_cons_t.png)
+
+
+## Plot3
+
+![NVM Research graph2](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/Scatter_t2_mf_natural.png)
+
 
 You can also embed plots, for example:
 
 ```{r, echo = FALSE}
-library(forcats)
-library(plotly)
 draw_key_polygon3 <- function(data, params, size) {
   lwd <- min(data$size, min(size) / 4)
   
@@ -127,20 +136,63 @@ df_long <- as.data.frame(df_long)
 df_long$consciousness <- fct_relevel(df_long$consciousness, "unwholesome")
 
 plot1 <- ggplot(df_long, aes(x=consciousness, y=score+1, fill = nvm_factor)) + 
-  #geom_jitter(show.legend=FALSE, width=0.25, shape = 21) + 
-  #geom_dotplot(binaxis = "y", binwidth = 0.1, stackdir = "center", 
-  #show.legend = FALSE, col=I("black"), fill=I("grey")) +
-  #facet_wrap(~bewustzijn) +
   geom_jitter(show.legend=FALSE, width=0.35, shape = 21, size = df_long$nvm_factor) +
   geom_boxplot(alpha = 0.9, width = 0.8, coef = 0.50, outlier.shape = NA) + 
   scale_fill_manual(values = c("#E4EBF2", "#84A45A", "#715E4E", "#112B04")) +
-  #scale_fill_manual(values = c("#728CA3", "#73C0F4", "#E6EFF3")) +
   scale_y_continuous(expand = expansion(0),
                      limits = c(0, 40),
                      breaks = seq(0, 40, 10))
-plot1
 
 ```
+
+```{r, echo = FALSE}
+boxplot_cons_t <- plot1 +
+  ggtitle("consciousness and the nvm factors in total group ") + 
+  theme(plot.title = element_text(color = "black")) +
+  xlab("consciousness levels") + 
+  ylab("scores nvm factors") + 
+  scale_fill_manual(values = c("#d5dce3", "#36a3b4", "#7c8ca9", "#352f35")) + 
+  labs(
+    x = "consciousness",
+    y = "nvm factor score",
+    fill = NULL,
+    title = "box-jitterplot consciousness\nand nvm factors"
+  ) + 
+  theme(
+    plot.margin = unit(c(1, 1, 1, 1), "cm"),
+    panel.background = element_blank(),
+    plot.title = element_text(size = 45, face = "bold",
+                              margin= margin(b = 15)),
+    axis.line = element_line(color = "black"),
+    axis.title = element_text(size = 25, color = "black",
+                              face = "bold"),
+    axis.text = element_text(size = 20, color = "black"),
+    axis.text.y = element_text(size = 20),
+    axis.ticks.x = element_blank(),
+    axis.text.x = element_text(margin = margin(t = 10)),
+    axis.title.y = element_text(margin = margin(r = 10)),
+    #legend.position = c(0.25, 0.8),
+    legend.position = "bottom",
+    legend.background = element_rect(color = "black"),
+    legend.text = element_text(size = 15),
+    legend.margin = margin(t = 5, l = 5, r = 5, b = 5),
+    legend.key = element_rect(color = NA, fill = NA)
+  ) +
+  guides(
+    fill = guide_legend(
+      keywidth = 0.8,
+      keyheight = 0.8,
+      default.unit = "cm"
+    )
+  )
+
+``` 
+
+
+
+
+
+
 
 ## Regression
 

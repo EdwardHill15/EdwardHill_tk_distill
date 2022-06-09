@@ -5,35 +5,35 @@
       "title": "Edward Hillenaar: Data Scientist, Psychologist and Philosopher",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\nBio\r\nMy name is Edward F. Hillenaar and I am the founder and CEO of Total\r\nHealth Foundation. Through a journey in different directions, I now walk\r\na path in which my knowledge and life experiences are used for therapy\r\nand counseling to improve the ‘quality of life’.\r\nMy regular ‘scientific’ education consists respectively of the\r\nAcademy of Physical Education and Physiotherapy in The Hague (HALO);\r\nSports and Exercise Science at the University of Utrecht (“Sports,\r\nExercise and Health”); and Clinical-Health Psychology. Combined with my\r\ninterest in Eastern Buddhist psychology and philosophy, all my knowledge\r\nand experience can be used for my mission within the Total Health\r\nFoundation.\r\nMy research interests include psychology, philosophy and data science\r\nof the origin and nature of human consciousness.\r\nSkills\r\nI have 4 years of experience with R statistics package,\r\nespecially experienced in Regression Analysis, Factor Analysis and\r\nBayesian statistics\r\nI am a trainer/coach/therapist in my own company; Total Health\r\nFoundation\r\nExperience\r\nTraining/Coaching/Therapy\r\nScientific Research\r\nPsychology/Philosophy\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-09T11:57:27+02:00"
+      "last_modified": "2022-06-09T13:25:53+02:00"
     },
     {
       "path": "articles.html",
       "title": "Articles",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-09T11:57:29+02:00"
+      "last_modified": "2022-06-09T13:25:54+02:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-09T11:57:31+02:00"
+      "last_modified": "2022-06-09T13:25:57+02:00"
     },
     {
       "path": "index.html",
       "title": "Publications",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-09T11:57:33+02:00"
+      "last_modified": "2022-06-09T13:25:59+02:00"
     },
     {
       "path": "talks.html",
       "title": "Talks",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\nAll the\r\nways to break into data science and analytics\r\n2018-05-01 / SQL Saturday #759 / Event\r\nURL / Slides\r\nIn this session, we will explore all the various ways to pivot into\r\nthe data science field. We will go over some common scenarios, and will\r\ninspect different pieces of advice found on the Internet.\r\nR in Power BI\r\n2018-05-01 / SQL Saturday #759 / Event\r\nURL / Slides\r\nIn this session, we will touch on R as the language for data science,\r\nand then will dive right into how to use R within the Power BI\r\nenvironment, and why to use it in a first place.\r\nR and Power BI - Better\r\nTogether\r\n2018-03-08 / Jacksonville Power BI User Group / URL\r\nR is one of the leading languages in the world of data science. It\r\nhas a growing following and many applications, including data\r\ntransformation, machine learning, statistical modeling, data\r\nvisualization, web applications, and even building websites.\r\nR is widely used in academia, science and business. Some of the large\r\ncompanies like Microsoft, Facebook, Airbnb, Etsy, Stitch Fix, IBM and\r\nUber use R for data science exclusively, or in tandem with Python.\r\nIn this session, we will first look at R separately as a language,\r\nfollowed by use of R within Power BI: how, when and why to resort to it\r\nfor data transformation, modeling and visualization.\r\nSASS:\r\nSimplify, Standardize, Automate and Scale your enterprise reporting\r\n2017-10-05 / Jacksonville Power BI User Group / URL\r\nIn this session, we will talk about how to run Power BI reporting on\r\nenterprise level with minimal resources (i.e. lean), and introduce you\r\nto a SASS framework: simple, standard, automated and scalable.\r\nMigrate\r\nyour enterprise reporting into Power BI: process canvas, pitfalls &\r\nbest practices\r\n2017-08-12 / SQL Saturday #649 / URL\r\nIn this session, we will discuss how to efficiently migrate your\r\nretrospective analytics from where it is now to Power BI, and do it in a\r\nway that saves you time in the future.\r\nSome of the topics include:\r\nHow to create a solution that is simple, automated, standardized and\r\nscalable\r\nHow to avoid common pitfalls and “death by a thousand reports”\r\nHow to most efficiently distribute the reports afterwards\r\n\r\n\r\n\r\n",
-      "last_modified": "2022-06-09T11:57:35+02:00"
+      "last_modified": "2022-06-09T13:26:01+02:00"
     }
   ],
   "collections": ["posts/posts.json"]
