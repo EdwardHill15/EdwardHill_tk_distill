@@ -1,0 +1,190 @@
+﻿Code;Nr;Name;Gender;Age;Status;NVM1.NEG;NVM1.SOM;NVM1.VERL;NVM1.PSY;NVM1.EX
+PPP1131;2;Buitelaar, den A.;m;49;2;27;18;13;4;12
+PPP30;3;Werff, van der M.;m;17;0;12;10;2;0;21
+PPP334;4;Blomme, A.;f;36;0;23;8;13;2;15
+PPP921;5;Bruin-Reijerkerk, L.F.;f;49;3;33;34;7;13;14
+PPP948;6;Bruijn, de A.W.;m;60;3;15;19;18;6;5
+PPP889;7;Koesveld-van Persie, A.M.;f;22;1;32;16;28;9;6
+PPP996;8;Gruyter, de G.;m;28;1;26;10;24;0;20
+PPP1004;9;Hagers, W.L.S.;f;40;1;30;15;21;8;20
+PPP1004b;10;Hagers, J. ;m;46;1;26;17;22;6;16
+PPP1022;11;Groot-Boehlé, de P.;f;35;1;18;10;2;6;16
+PPP1032;12;Klomp, J.J.;m;52;4;18;19;26;2;7
+PPP1057;13;Klop, H.C.;m;52;1;11;4;4;3;19
+PPP1064;14;Bakker, W.;f;20;0;32;16;26;14;12
+PPP1073;15;Hartigh, den I.;f;46;1;26;14;10;2;8
+PPP1096;16;Butter, G.;m;40;0;21;2;17;1;17
+PPP1136;17;Claassen-van Dalen, E.H.;f;46;1;25;30;14;5;8
+PPP19;18;Zonnevijlle, K.M.A.;f;27;0;22;8;12;4;22
+PPP20;19;Zwaan, R. ;m;39;1;31;22;12;6;10
+PPP21;20;Zwart, de M.;f;55;1;24;18;22;6;13
+PPP22;21;Veldman, M.;f;33;2;32;37;21;12;12
+PPP23;22;Willenheer, N.A.;f;26;0;24;8;8;2;18
+PPP23b;23;Wulp, van der J.;f;18;0;28;29;12;3;19
+PPP23c;24;Wijk, van K.;m;51;1;22;15;9;5;6
+PPP24;25;Zelm, van H.J.;f;50;2;26;30;12;6;16
+PPP25;26;Block, de W.J.A.;m;41;1;24;9;8;0;12
+PPP26;27;Jongh, de D. ;f;34;1;36;36;2;8;16
+PPP28;28;Ertik-Haneman, L.J.M.;f;28;1;30;30;24;11;12
+PPP29;29;Catersels, H.;m;59;0;21;8;24;8;5
+PPP30;30;Glopper, de J.J.;m;44;0;25;14;2;6;14
+PPP31;31;Stuurman-Ooms, L.I. ;f;42;1;24;34;21;2;12
+PPP31b;32;Verwaert-Meertens, A.;f;35;1;30;2;20;4;18
+PPP32;33;Kool, I. ;f;30;1;14;3;17;4;16
+PPP33;34;Kruys-Prins, M.;f;30;3;16;26;23;8;6
+PPP34;35;Vecht, van der C.H.;m;42;2;27;7;12;3;20
+PPP35;36;Veen, H.A.W. ;f;21;0;24;30;6;6;8
+PPP36;37;Waard, de -de Bruyn, V.I.;f;51;1;21;13;22;11;18
+PPP37;38;Waaijer, R.;m;63;2;14;6;0;2;16
+PPP38;39;Waltman, D.J.;f;27;0;23;2;5;2;21
+PPP39;40;Warris-Biesterbosch, A.J.H.;f;49;1;28;28;28;8;13
+PPP40;41;Stieding-de Vries, S.;f;31;1;29;11;12;0;15
+PPP41;42;Stuy-Visser, G.W.;f;51;4;19;15;2;1;23
+PPP42;43;Hoogeveen-Overhand, I. ;f;33;1;13;13;3;0;15
+PPP43;44;Jager, de - van de Toren, A.E.;f;37;1;25;16;25;0;12
+PPP44;45;Heilema, D. ;f;36;1;30;11;20;0;6
+PPP45;46;Hennep, E.H. ;m;61;3;14;5;3;0;18
+PPP48;47;Ruijter, de G.W.;m;50;1;18;10;3;0;22
+PPP49;48;Thoonsen-van de Engel, C.M.;f;42;1;20;6;18;0;14
+PPP50;49;Sneep, A.;m;38;2;20;12;22;12;18
+PPP51;50;Thoonsen, F.J.;m;41;1;22;16;4;2;16
+PPP52;51;Renneberg, M.P.A.;f;28;0;34;31;28;8;17
+PPP53;52;Schmidt - van de Heuvel, A.E.;f;42;1;28;36;28;9;7
+PPP54;53;Schalie, van der - Faas, M.G.G.;f;45;1;26;18;6;4;13
+PPP54b;54;Schaijk, van S. ;f;30;0;33;34;29;17;16
+PPP55;55;Schippers, A.;f;38;2;23;4;0;4;20
+PPP56;56;Oosterhuis, J. ;m;42;2;32;37;3;4;21
+PPP57;57;Mol, C.;m;39;0;31;20;7;5;15
+PPP57b;58;Nederlof, B.G. ;f;22;0;16;8;6;0;14
+PPP58;59;Scheurwater, G. ;m;35;0;12;4;26;0;13
+PPP59;60;Niazi, F.;f;29;1;21;18;7;15;19
+PPP60;61;Non, A.;m;60;1;23;6;14;3;8
+PPP60b;62;Ochter, J.;f;25;0;26;20;0;4;26
+PPP61;63;Vermeulen, A.;m;53;1;22;14;6;3;10
+PPP62;64;Prins, G. ;m;41;1;19;2;8;3;19
+PPP62b;65;Plokker, W. ;m;53;0;22;29;11;5;14
+PPP63;66;Pol, J. ;m;26;0;20;22;7;3;8
+PPP64;67;Vendeloo, van M.N.M.;m;35;1;28;30;14;4;10
+PPP64b;68;Vennink-den Boef, A.J. ;f;35;1;18;16;28;0;12
+PPP67;69;Pieters, J. ;f;34;2;31;7;23;6;17
+PPP69;70;Ottervanger, S.A.;m;40;1;11;0;10;1;21
+PPP70;71;Nekeman, P. ;m;49;1;16;9;13;2;12
+PPP70b;72;Nekoui, E.;m;41;1;37;25;19;14;11
+PPP71;73;Veen, van D.;m;51;3;19;0;6;0;15
+PPP72;74;Toorn, van der C. ;m;40;2;16;24;26;4;16
+PPP73;75;Hel, van der - Visser, N.J. ;f;29;1;27;21;22;6;18
+PPP74;76;Helden, van J.A.;m;42;1;26;8;9;8;17
+PPP74b;77;Hoekwater, B.C.;m;31;1;33;15;23;10;19
+PPP75;78;Hoftijzer, J.E.;m;22;0;21;13;11;4;15
+PPP75b;79;Hogeland, J.H. ;m;36;0;12;20;20;2;10
+PPP76;80;Houkes, R.M. ;f;24;1;10;8;2;0;16
+PPP76b;81;Hoven, van den M.A. ;f;33;2;24;4;9;4;18
+PPP77;82;Makor, R. ;m;41;1;8;4;1;2;19
+PPP78;83;Midde, J.H. ;m;53;1;22;16;3;2;16
+PPP80;84;Korteweg, R.;m;30;1;26;18;8;3;12
+PPP81;85;Kramer, E. ;m;35;1;29;16;4;2;20
+PPP82;86;Keizer, de R. ;m;24;0;8;4;16;2;18
+PPP83;87;Kilci, B. ;f;27;1;8;10;1;2;19
+PPP84;88;Kleinveld, R. ;f;17;0;17;11;2;0;22
+PPP85;89;Kooijman;f;19;0;29;14;13;3;11
+PPP86;90;Kornet, W. ;m;40;0;26;26;25;8;17
+PPP87;91;Deppe, E.P.;m;48;1;17;23;2;3;18
+PPP88;92;Docter, P.;f;33;1;12;10;30;1;4
+PPP89;93;Kooten, van T.J. ;m;48;1;23;15;20;4;6
+PPP90;94;Dam-de Vries, E.C.;f;47;1;22;12;18;1;9
+PPP91;95;Dedert-Pietserse, S.S.;f;58;1;36;30;26;10;25
+PPP92;96;Dekker, W.J. ;m;36;0;23;15;6;2;12
+PPP93;97;Smits, M. ;m;37;0;24;17;18;2;14
+PPP94;98;Snijders-Houtepen, A.M. J. ;f;34;1;24;24;10;0;22
+PPP95;99;Boer, H. ;m;50;0;25;16;25;2;14
+PPP96;100;Boer, L.J.;m;30;0;36;18;4;14;22
+PPP97;101;Borst, de H. ;m;67;1;12;20;2;2;10
+PPP98;102;Smit-van Dijke, M.R. ;f;36;1;12;34;1;0;13
+PPP99;103;Bie, de - Ochse, E.C. ;f;32;1;19;17;21;1;19
+PPP100;104;Bliekendaal, M.J. ;m;29;0;28;23;6;13;24
+PPP101;105;Smit, J. ;m;50;1;26;21;12;5;5
+PPP102;106;Breen, van C.W.M. ;f;30;0;11;5;8;4;15
+PPP103;107;Boersma, E.N. ;f;28;0;19;14;26;2;18
+PPP104;108;Bogers, L.M.J. ;f;20;0;32;16;28;3;4
+PPP105;109;Norgers, B.H. ;f;45;1;32;34;30;12;18
+PPP106;110;Bout, R. ;m;29;0;27;7;25;8;19
+PPP107;111;Bouter, E.D. ;f;32;0;20;18;13;4;20
+PPP109;112;Alting-Siberg, A.D. ;f;27;0;26;16;14;2;18
+PPP110;110;Bourgondiën, van C.M. ;f;65;4;18;20;21;2;12
+PPP112;115;Kayim, S. ;f;44;1;11;13;26;4;25
+PPP114;116;Bos, van der - Dekker, A. ;f;46;1;22;20;20;0;7
+PPP115;117;Bos-Knegten, J.L. ;f;49;1;20;18;23;0;4
+PPP118;119;Ballegooijen, C. ;f;15;0;23;13;12;4;22
+PPP119;120;Aardenne, van M.J. ;f;23;0;30;14;26;4;16
+PPP120;121;Barends, E. ;m;41;1;13;0;2;0;10
+PPP121;122;Bakker-Aarnoutse, M. ;f;38;1;17;7;2;0;11
+PPP122;123;Aarssen-Vermeulen, M.M.A. ;f;47;1;8;18;14;2;16
+PPP123;124;Bénard, H.G. ;f;25;2;32;30;9;7;13
+PPP124;125;AA, van der A.M. ;f;28;2;22;26;25;8;21
+PPP127;126;Verbaan, P. ;f;26;1;20;15;14;10;11
+PPP129;127;Mook, van J.M.C.A.;f;45;1;10;9;4;3;11
+PPP130b;128;Visser, M.;f;24;0;25;23;2;3;10
+PPP136;134;Leeuwen, van J. ;m;55;1;25;22;2;2;8
+PPP137;135;Jiskoot, S.A. ;m;41;1;8;2;10;0;6
+PPP138b;136;Porceddu, M.S. ;f;25;0;27;23;9;9;16
+PPP139;137;Flach-Rits, F.D. ;f;30;1;36;12;28;20;22
+PPP140;138;Goudswaard, Y.T. ;f;40;2;32;13;9;2;18
+PPP141;139;Greuningen, van - van de Wal, N.W. ;f;43;1;29;16;9;2;8
+PPP142;140;Engelen, van R.V. ;m;38;1;18;6;1;3;20
+PPP143;141;Everhard, E. ;m;28;0;26;16;29;5;6
+PPP144;142;Elzen, van den  I.J.P. ;f;23;0;26;7;6;3;11
+PPP144b;143;Donker-Bekker, M. ;f;51;1;34;15;26;5;17
+PPP145;144;Doornewaard, M.T. ;f;44;1;20;12;4;6;15
+PPP145b;145;Doornheim, K. ;f;24;0;14;10;2;4;17
+PPP146;146;Drongelen, van I. ;m;51;1;22;16;11;5;20
+PPP146b;147;Dijk, van P.J.C. ;m;34;1;33;24;4;1;19
+PPP147;148;Minnebreuker, D.;f;27;0;22;32;14;2;11
+PPP147b;149;Donker, A.P. ;m;51;1;32;16;9;8;18
+PPP148;150;Meertens, W. ;m;19;0;25;14;14;0;18
+PPP149;151;Michielse-Snijder, S.E.C. ;f;38;1;38;10;21;3;18
+PPP150;152;Meerman, C. ;f;14;0;13;20;16;14;10
+PPP151;153;Maas, J.W. ;m;29;0;26;20;24;4;14
+PPP152;154;Martherus, E.B. ;m;52;2;28;12;26;7;14
+PPP153;155;Matla-Kats, C.C. ;f;56;1;22;21;6;1;8
+PPP154;156;Matten, van der R.P. ;m;50;1;34;9;20;8;11
+PPP155;157;Schoonderbeek-Simonse, A.B.G. ;f;52;1;22;24;10;5;14
+PPP157;158;Pellikaan, M. ;m;24;0;23;9;10;2;20
+PPP158;159;Penning-van de Barselaar, E. ;f;40;1;17;27;6;2;14
+PPP159;160;Pfeil, M. ;f;27;0;37;33;21;2;20
+PPP160;161;Vink, M.J. ;f;42;2;20;2;12;10;22
+PPP161;162;Rees, van C.M. ;m;47;4;2;0;21;2;14
+PPP162;163;Wijk, van - Karbaat, M. ;f;28;1;22;20;10;2;20
+PPP163;164;Veth-Jangha, A.J. ;f;41;1;22;30;4;4;16
+PPP164;165;Visser, G. ;m;57;1;24;27;28;4;10
+PPP166;166;Schoon, T.J.C. ;m;52;1;27;17;24;10;14
+PPP167;167;Verwey, C.G. ;f;17;0;32;14;9;18;22
+PPP368;167b;Kúlbag, F. ;f;21;0;27;31;18;8;10
+PPP168;168;Veth, G. ;m;49;1;8;2;3;0;16
+PPP370;168b;Nol, van de - Guldenaar, W.;f;43;1;;;;;
+GOR169;169;Boogert, J.A. ;m;26;0;12;12;13;7;16
+GOR170;170;Borsje, B.;m;19;0;26;8;8;2;16
+GOR171;171;Visser, P.;m;44;1;31;19;14;1;15
+GOR172;172;Bambacht, J. ;f;45;1;11;19;14;1;7
+GOR173;173;Brederveld, C. ;f;47;1;23;22;11;2;7
+GOR174;174;Rozendaal, M. ;f;29;0;22;16;24;6;18
+GOR175;175;Barendrecht, P. ;f;27;1;23;26;12;12;12
+GOR176;176;Bergwerff, M.E. ;f;43;1;24;23;19;2;16
+GOR177;177;Dek, J.;f;47;1;17;9;26;2;4
+GOR178;178;Gruis-Mosterd, R.;f;30;1;12;16;16;3;6
+GOR179;179;Wit, de M.;f;25;0;23;7;20;1;21
+GOR180;180;Korver, de - Rustemeijer, M.C. ;f;80;4;22;24;14;4;12
+GOR181;181;Blom, M. ;f;21;0;20;21;22;8;15
+INC182;182;Hartlief-Tieman, QW;f;53;1;24;28;5;0;12
+INC183;183;Lagarde, P.L.;f;48;0;7;11;4;0;6
+INC184;184;Mollet, E. ;m;43;1;15;24;4;2;9
+INC185;185;Beest-Buyk, G.;f;28;1;22;15;10;3;18
+INC186;186;Oualim-Belgacemi, Z.;f;22;1;18;32;4;4;18
+INC187;187;Koster, de A.;f;37;1;10;12;2;0;14
+INC188;188;Breijen, den - Sterk, E. ;f;45;1;6;16;0;0;14
+INC189;189;Berkhouwer, S.;f;22;0;21;14;4;0;16
+INC190;190;Beukers - Rietveld, A.M. ;f;42;1;15;19;7;3;23
+INC191;191;Slegt, C. ;f;15;0;7;15;3;0;8
+INC192;192;Bosse, F. ;f;21;0;22;27;6;2;17
+INC193;193;Bes, S. ;f;20;0;18;18;6;1;22
+INC194;194;Herweijer, R. ;m;29;0;4;5;13;0;15
+INC195;195;Lanser, M. ;f;23;0;8;6;1;0;18

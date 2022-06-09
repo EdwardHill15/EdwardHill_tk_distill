@@ -3,6 +3,7 @@ title: "Articles"
 site: distill::distill_website
 listing: 
   posts:
+    - voorbeeld11
     - Alfred North Whitehead
 ---
 

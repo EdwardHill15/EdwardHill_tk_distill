@@ -1,0 +1,161 @@
+"","Code","Gender","Age","Status","NEG","SOM","VERL","PSY","EX"
+"1","PPP1131","Male",49,"Divorced",27,18,13,4,12
+"2","PPP30","Male",17,"Not Married",12,10,2,0,21
+"3","PPP334","Female",36,"Not Married",23,8,13,2,15
+"4","PPP921","Female",49,"Re-married",33,34,7,13,14
+"5","PPP948","Male",60,"Re-married",15,19,18,6,5
+"6","PPP889","Female",22,"Married",32,16,28,9,6
+"7","PPP996","Male",28,"Married",26,10,24,0,20
+"8","PPP1004","Female",40,"Married",30,15,21,8,20
+"9","PPP1004b","Male",46,"Married",26,17,22,6,16
+"10","PPP1022","Female",35,"Married",18,10,2,6,16
+"11","PPP1032","Male",52,"Widow",18,19,26,2,7
+"12","PPP1057","Male",52,"Married",11,4,4,3,19
+"13","PPP1064","Female",20,"Not Married",32,16,26,14,12
+"14","PPP1073","Female",46,"Married",26,14,10,2,8
+"15","PPP1096","Male",40,"Not Married",21,2,17,1,17
+"16","PPP1136","Female",46,"Married",25,30,14,5,8
+"17","PPP19","Female",27,"Not Married",22,8,12,4,22
+"18","PPP20","Male",39,"Married",31,22,12,6,10
+"19","PPP21","Female",55,"Married",24,18,22,6,13
+"20","PPP22","Female",33,"Divorced",32,37,21,12,12
+"21","PPP23","Female",26,"Not Married",24,8,8,2,18
+"22","PPP23b","Female",18,"Not Married",28,29,12,3,19
+"23","PPP23c","Male",51,"Married",22,15,9,5,6
+"24","PPP24","Female",50,"Divorced",26,30,12,6,16
+"25","PPP25","Male",41,"Married",24,9,8,0,12
+"26","PPP26","Female",34,"Married",36,36,2,8,16
+"27","PPP28","Female",28,"Married",30,30,24,11,12
+"28","PPP29","Male",59,"Not Married",21,8,24,8,5
+"29","PPP30","Male",44,"Not Married",25,14,2,6,14
+"30","PPP31","Female",42,"Married",24,34,21,2,12
+"31","PPP31b","Female",35,"Married",30,2,20,4,18
+"32","PPP32","Female",30,"Married",14,3,17,4,16
+"33","PPP33","Female",30,"Re-married",16,26,23,8,6
+"34","PPP34","Male",42,"Divorced",27,7,12,3,20
+"35","PPP35","Female",21,"Not Married",24,30,6,6,8
+"36","PPP36","Female",51,"Married",21,13,22,11,18
+"37","PPP37","Male",63,"Divorced",14,6,0,2,16
+"38","PPP38","Female",27,"Not Married",23,2,5,2,21
+"39","PPP39","Female",49,"Married",28,28,28,8,13
+"40","PPP40","Female",31,"Married",29,11,12,0,15
+"41","PPP41","Female",51,"Widow",19,15,2,1,23
+"42","PPP42","Female",33,"Married",13,13,3,0,15
+"43","PPP43","Female",37,"Married",25,16,25,0,12
+"44","PPP44","Female",36,"Married",30,11,20,0,6
+"45","PPP45","Male",61,"Re-married",14,5,3,0,18
+"46","PPP48","Male",50,"Married",18,10,3,0,22
+"47","PPP49","Female",42,"Married",20,6,18,0,14
+"48","PPP50","Male",38,"Divorced",20,12,22,12,18
+"49","PPP51","Male",41,"Married",22,16,4,2,16
+"50","PPP52","Female",28,"Not Married",34,31,28,8,17
+"51","PPP53","Female",42,"Married",28,36,28,9,7
+"52","PPP54","Female",45,"Married",26,18,6,4,13
+"53","PPP54b","Female",30,"Not Married",33,34,29,17,16
+"54","PPP55","Female",38,"Divorced",23,4,0,4,20
+"55","PPP56","Male",42,"Divorced",32,37,3,4,21
+"56","PPP57","Male",39,"Not Married",31,20,7,5,15
+"57","PPP57b","Female",22,"Not Married",16,8,6,0,14
+"58","PPP58","Male",35,"Not Married",12,4,26,0,13
+"59","PPP59","Female",29,"Married",21,18,7,15,19
+"60","PPP60","Male",60,"Married",23,6,14,3,8
+"61","PPP60b","Female",25,"Not Married",26,20,0,4,26
+"62","PPP61","Male",53,"Married",22,14,6,3,10
+"63","PPP62","Male",41,"Married",19,2,8,3,19
+"64","PPP62b","Male",53,"Not Married",22,29,11,5,14
+"65","PPP63","Male",26,"Not Married",20,22,7,3,8
+"66","PPP64","Male",35,"Married",28,30,14,4,10
+"67","PPP64b","Female",35,"Married",18,16,28,0,12
+"68","PPP67","Female",34,"Divorced",31,7,23,6,17
+"69","PPP69","Male",40,"Married",11,0,10,1,21
+"70","PPP70","Male",49,"Married",16,9,13,2,12
+"71","PPP70b","Male",41,"Married",37,25,19,14,11
+"72","PPP71","Male",51,"Re-married",19,0,6,0,15
+"73","PPP72","Male",40,"Divorced",16,24,26,4,16
+"74","PPP73","Female",29,"Married",27,21,22,6,18
+"75","PPP74","Male",42,"Married",26,8,9,8,17
+"76","PPP74b","Male",31,"Married",33,15,23,10,19
+"77","PPP75","Male",22,"Not Married",21,13,11,4,15
+"78","PPP75b","Male",36,"Not Married",12,20,20,2,10
+"79","PPP76","Female",24,"Married",10,8,2,0,16
+"80","PPP76b","Female",33,"Divorced",24,4,9,4,18
+"81","PPP77","Male",41,"Married",8,4,1,2,19
+"82","PPP78","Male",53,"Married",22,16,3,2,16
+"83","PPP80","Male",30,"Married",26,18,8,3,12
+"84","PPP81","Male",35,"Married",29,16,4,2,20
+"85","PPP82","Male",24,"Not Married",8,4,16,2,18
+"86","PPP83","Female",27,"Married",8,10,1,2,19
+"87","PPP84","Female",17,"Not Married",17,11,2,0,22
+"88","PPP85","Female",19,"Not Married",29,14,13,3,11
+"89","PPP86","Male",40,"Not Married",26,26,25,8,17
+"90","PPP87","Male",48,"Married",17,23,2,3,18
+"91","PPP88","Female",33,"Married",12,10,30,1,4
+"92","PPP89","Male",48,"Married",23,15,20,4,6
+"93","PPP90","Female",47,"Married",22,12,18,1,9
+"94","PPP91","Female",58,"Married",36,30,26,10,25
+"95","PPP92","Male",36,"Not Married",23,15,6,2,12
+"96","PPP93","Male",37,"Not Married",24,17,18,2,14
+"97","PPP94","Female",34,"Married",24,24,10,0,22
+"98","PPP95","Male",50,"Not Married",25,16,25,2,14
+"99","PPP96","Male",30,"Not Married",36,18,4,14,22
+"100","PPP97","Male",67,"Married",12,20,2,2,10
+"101","PPP98","Female",36,"Married",12,34,1,0,13
+"102","PPP99","Female",32,"Married",19,17,21,1,19
+"103","PPP100","Male",29,"Not Married",28,23,6,13,24
+"104","PPP101","Male",50,"Married",26,21,12,5,5
+"105","PPP102","Female",30,"Not Married",11,5,8,4,15
+"106","PPP103","Female",28,"Not Married",19,14,26,2,18
+"107","PPP104","Female",20,"Not Married",32,16,28,3,4
+"108","PPP105","Female",45,"Married",32,34,30,12,18
+"109","PPP106","Male",29,"Not Married",27,7,25,8,19
+"110","PPP107","Female",32,"Not Married",20,18,13,4,20
+"111","PPP109","Female",27,"Not Married",26,16,14,2,18
+"112","PPP110","Female",65,"Not Married",18,20,21,2,12
+"113","PPP112","Female",44,"Married",11,13,26,4,25
+"114","PPP114","Female",46,"Married",22,20,20,0,7
+"115","PPP115","Female",49,"Married",20,18,23,0,4
+"116","PPP118","Female",15,"Not Married",23,13,12,4,22
+"117","PPP119","Female",23,"Not Married",30,14,26,4,16
+"118","PPP120","Male",41,"Married",13,0,2,0,10
+"119","PPP121","Female",38,"Married",17,7,2,0,11
+"120","PPP122","Female",47,"Married",8,18,14,2,16
+"121","PPP123","Female",25,"Divorced",32,30,9,7,13
+"122","PPP124","Female",28,"Divorced",22,26,25,8,21
+"123","PPP127","Female",26,"Married",20,15,14,10,11
+"124","PPP129","Female",45,"Married",10,9,4,3,11
+"125","PPP130b","Female",24,"Not Married",25,23,2,3,10
+"126","PPP136","Male",55,"Married",25,22,2,2,8
+"127","PPP137","Male",41,"Married",8,2,10,0,6
+"128","PPP138b","Female",25,"Not Married",27,23,9,9,16
+"129","PPP139","Female",30,"Married",36,12,28,20,22
+"130","PPP140","Female",40,"Divorced",32,13,9,2,18
+"131","PPP141","Female",43,"Married",29,16,9,2,8
+"132","PPP142","Male",38,"Married",18,6,1,3,20
+"133","PPP143","Male",28,"Not Married",26,16,29,5,6
+"134","PPP144","Female",23,"Not Married",26,7,6,3,11
+"135","PPP144b","Female",51,"Married",34,15,26,5,17
+"136","PPP145","Female",44,"Married",20,12,4,6,15
+"137","PPP145b","Female",24,"Not Married",14,10,2,4,17
+"138","PPP146","Male",51,"Married",22,16,11,5,20
+"139","PPP146b","Male",34,"Married",33,24,4,1,19
+"140","PPP147","Female",27,"Not Married",22,32,14,2,11
+"141","PPP147b","Male",51,"Married",32,16,9,8,18
+"142","PPP148","Male",19,"Not Married",25,14,14,0,18
+"143","PPP149","Female",38,"Married",38,10,21,3,18
+"144","PPP150","Female",14,"Not Married",13,20,16,14,10
+"145","PPP151","Male",29,"Not Married",26,20,24,4,14
+"146","PPP152","Male",52,"Divorced",28,12,26,7,14
+"147","PPP153","Female",56,"Married",22,21,6,1,8
+"148","PPP154","Male",50,"Married",34,9,20,8,11
+"149","PPP155","Female",52,"Married",22,24,10,5,14
+"150","PPP157","Male",24,"Not Married",23,9,10,2,20
+"151","PPP158","Female",40,"Married",17,27,6,2,14
+"152","PPP159","Female",27,"Not Married",37,33,21,2,20
+"153","PPP160","Female",42,"Divorced",20,2,12,10,22
+"154","PPP161","Male",47,"Widow",2,0,21,2,14
+"155","PPP162","Female",28,"Married",22,20,10,2,20
+"156","PPP163","Female",41,"Married",22,30,4,4,16
+"157","PPP164","Male",57,"Married",24,27,28,4,10
+"158","PPP166","Male",52,"Married",27,17,24,10,14
+"159","PPP167","Female",17,"Not Married",32,14,9,18,22
+"160","PPP168","Male",49,"Married",8,2,3,0,16
