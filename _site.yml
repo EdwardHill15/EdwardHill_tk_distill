@@ -4,14 +4,14 @@ description: |
   Edward Hillenaar
 output_dir: "_site"
 theme: theme.css
-base_url: https://edwardhillenaar-postcard.netlify.app/
+base_url: https://edwardhill-th-distill.netlify.app/
 favicon: static/logo.svg
 twitter:
   site: ""
 navbar:
   logo: 
     image: static/logo.svg
-    href: https://edwardhillenaar-postcard.netlify.app/
+    href: https://edwardhill-th-distill.netlify.app/
   right:
     - text: "Home"
       href: index.html
