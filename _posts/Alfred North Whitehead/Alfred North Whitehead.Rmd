@@ -12,7 +12,7 @@ output:
     toc: true
     toc_depth: 3
 bibliography: biblio.bib
-preview: figures/Alfred2.png
+preview: figures/Alfred1.jpg
 draft: false
 ---
 
