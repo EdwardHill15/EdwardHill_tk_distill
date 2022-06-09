@@ -17,8 +17,10 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-    - text: "Posts"
-      href: posts.html
+    - text: "Articles"
+      href: articles.html
+    - text: "Blog"
+      href: blog.html
     - text: "Talks"
       href: talks.html
     - icon: fa fa-rss

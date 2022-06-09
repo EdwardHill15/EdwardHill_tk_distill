@@ -1,0 +1,13 @@
+---
+title: "Articles"
+site: distill::distill_website
+listing: 
+  posts:
+    - Alfred North Whitehead
+---
+
+```{css, echo = FALSE}
+  body {
+  background-color: lightblue;
+}
+```
