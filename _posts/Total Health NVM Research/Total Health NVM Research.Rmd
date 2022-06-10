@@ -110,6 +110,10 @@ table1
 
 ![NVM Research graph2](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/Scatter_t2_mf_natural.png)
 
+## Plot4
+
+![PLot4](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/bar1_f.png)
+
 
 You can also embed plots, for example:
 
