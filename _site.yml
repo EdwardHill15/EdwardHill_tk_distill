@@ -11,7 +11,7 @@ twitter:
 navbar:
   logo: 
     image: static/logo.svg
-    href: https://edwardhill-th-distill.netlify.app/
+    href: https://www.totalegezondheid.nl/
   right:
     - text: "Home"
       href: index.html
