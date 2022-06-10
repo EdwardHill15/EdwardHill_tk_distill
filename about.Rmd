@@ -3,7 +3,7 @@ title: "Edward Hillenaar: Data Scientist, Psychologist and Philosopher"
 ---
 ```{css, echo = FALSE}
   body {
-  background-color: lightblue;
+  background-color: #F0F8FF;
 }
 ```
 

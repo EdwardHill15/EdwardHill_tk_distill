@@ -5,6 +5,6 @@ listing: posts
 ---
 ```{css, echo = FALSE}
   body {
-  background-color: lightblue;
+  background-color: #F0F8FF;
 }
 ```
