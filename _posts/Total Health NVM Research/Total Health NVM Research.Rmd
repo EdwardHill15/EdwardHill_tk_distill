@@ -114,6 +114,9 @@ table1
 
 ![PLot4](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/bar1_f.png)
 
+## Animation1
+
+![Animation jitterplot Consciousness and Somatization](https://raw.githubusercontent.com/EdwardHill15/Data/main/graphs/consciousness_som.gif)
 
 You can also embed plots, for example:
 
